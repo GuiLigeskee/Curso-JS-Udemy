@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*
+.flexContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-flow: row nowrap;
+    background: yellow;
+}
+.flexItem{
+    /*flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 320px;*/
+/*flex: 1 1 320px; /*facilitando o código de cima*/
+/*height: 200px;
+    background:red;
+    color:white;
+}*/
+.twoColumns{
+    display: flex;
+}
+.twoColumns .col{
+    display: flex;
+    flex-direction: column;
+    background: green;
+    margin:15px;
+    padding: 30px;
+}
+.gallery{
+    flex-flow: row wrap;
+    display: flex;
+}
+.gallery .img{
+    flex:1 0 20%;
+    width: 100%;
+    height: 50px;
+    background: blue;
+    margin: 10px;
+}

@@ -1,0 +1,59 @@
+a:link {
+    color: deeppink;
+}
+
+a:visited {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+a:hover {/*quando o cursor passar*/
+    background: darkslateblue;
+    color: white;
+    text-decoration: none;
+}
+
+a:active {/*quando o usuário acionaar o link*/
+    background: greenyellow;
+    color: black;
+}
+
+input:focus {/*quando o input estiver acionado*/
+    box-shadow: 0 0 5px rgb(8, 167, 8);
+    outline:none;
+    border:1px solid black;
+    background: rgb(85, 221, 85);
+}
+input:enabled{/*quando o estiveer abilitado */
+    background-color: purple;
+}
+input:checked + p { /*quando o input tiver marcado o <p> muda de estado*/
+    background: red;
+}
+input:checked{/*quando o inputt tive marcado ele muda de estado*/
+    height: 50px;
+    width: 50px;
+}
+input:required{
+    background: black;
+    color: white;
+}
+.pai .lista li:first-child{/*seleciona o primeiro filho da lista*/
+    background: red;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Pseudo classe :not()*/
+p:not(.esseNao){
+    color:blueviolet;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*Pseudo classe :nth-child()*/
+ul li:nth-child(even){
+    background: violet;
+}
+ul li:nth-child(odd){
+    background-color: white;
+}
+ul li:nth-child(5n+1){
+    background: greenyellow;
+}

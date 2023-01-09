@@ -1,0 +1,23 @@
+body{
+    background-color: aquamarine;
+}
+
+p::first-letter{
+    font-size: 50px;
+    display: block;
+    float:left;
+    margin: 0 10px 10px 0;
+}
+p::first-line{
+    background: green;
+}
+p::selection{
+    background-color: black;
+    color:white;
+}
+::placeholder{
+    color:blue;
+}
+.form-field::placeholder{
+    color:red;
+}
