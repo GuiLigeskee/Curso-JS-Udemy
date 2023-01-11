@@ -6,4 +6,5 @@ falaOi();
 
 function falaOi(){
     console.log('Oie')
-}
+};
+
